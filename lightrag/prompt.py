@@ -33,7 +33,7 @@ PROMPTS["entity_extraction"] = """-目的-
 3. 识别能够概括整个文本主要概念、主题或话题的高级关键词。这些关键词应捕捉文档中呈现的总体思想。
 将内容级关键词格式化为 ("content_keywords"{tuple_delimiter}<high_level_keywords>)
 
-4. 以{language}返回输出，作为步骤1和2中标识的所有实体和关系的单个列表。使用**{record_delimiter}**作为列表分隔符。
+4. 使用{language}作为输出语言，输出步骤1和步骤2中标识的所有实体和关系的单个列表。使用**{record_delimiter}**作为列表分隔符。
 
 5. 完成后，输出{completion_delimiter}
 
